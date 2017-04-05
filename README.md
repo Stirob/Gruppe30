@@ -2,3 +2,7 @@
 <<<<<<< HEAD
 DANIAAL 
 simen var her xD
+
+
+
+ruth
