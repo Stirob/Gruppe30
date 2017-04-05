@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Ringen kino
+=======
+Oslo Kino
+>>>>>>> origin/master
