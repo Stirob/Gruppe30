@@ -1,0 +1,75 @@
+#body{
+    background-color:#666666;
+    margin: 0 auto;
+}
+
+#mainBox {
+    position: relative;
+    margin: auto;
+    width: 900px;
+    height: 970px;
+    background-color:#333333;
+    top: -20px;
+}
+
+#topBox {
+    position: relative;
+    margin: auto;
+    width: 900px;
+    height: 100px;
+    background-color:#F4FA58;
+    top: 0px;
+}
+
+#title{
+    left: 0px;
+    position: absolute;
+    line-height: 40px;
+    font-size: 50px;
+}
+
+.icon{
+    position: relative;
+    left: 160px;
+    bottom: -20px;
+}
+
+#contentBox{
+    position: relative;
+    margin: auto;
+    width: 500px;
+    height: 970px;
+    background-color:#808080;
+}
+
+.homeContentDiv{
+    position: relative;
+    margin: auto;
+    width: 300px;
+    height: 100px;
+    background-color:#e0e0eb;
+    opacity: 0.5;
+    top: -40px;
+    left: 40px;
+}
+
+.homeContentIcon{
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+
+.imgPlaceholderDiv{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.textDiv{
+    position: relative;
+    width: 190px;
+    height: 90px;
+    bottom: 80px;
+    left: 100px;
+}
+
