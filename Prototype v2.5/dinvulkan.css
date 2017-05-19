@@ -1,0 +1,39 @@
+#body{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    background-color: red;
+}
+
+#Tmeny{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 7%;
+    background-color: aqua;
+    }
+
+#Hmeny{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 15%;
+    background-color: chartreuse;
+}
+
+#bilde{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background-color: aliceblue;
+    background-image: url(img/Westerdal1-1500x750.jpg);
+}
+
+#footer{
+    position: relative;
+    width: 100%;
+    height: 9%;
+    background-color: fuchsia;
+    
+}
