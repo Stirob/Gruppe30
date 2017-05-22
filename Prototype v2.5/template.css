@@ -2,7 +2,6 @@
 #body{
     Margin: 0;
     padding: 0;
-    background-size: cover;
     background: url(img/Westerdal1.5-1500x750.jpg);
      font-family: "Inconsolata", sans-serif;
 }
@@ -325,12 +324,12 @@
 }
 
 #nav7 ul li{
-     background: #BC2B40;
+     background-color:grey;
     color: white;
 }
 
 #nav8 ul li{
-     background: #61AFCA;
+     background: grey;
     color: white;
 }
 
