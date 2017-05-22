@@ -3,6 +3,7 @@
     Margin: 0;
     padding: 0;
     background-size: cover;
+    background-repeat: no-repeat;
     background: url(img/Westerdal1.5-1500x750.jpg);
      font-family: "Inconsolata", sans-serif;
 }
