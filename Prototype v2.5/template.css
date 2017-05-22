@@ -1,15 +1,34 @@
-#bilde1{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    
+
+#body{
+    Margin: 0;
+    padding: 0;
+    background-size: cover;
+    background: url(img/Westerdal1.5-1500x750.jpg);
+     font-family: "Inconsolata", sans-serif;
 }
+
+#wrap{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    min-width: 1000px;
+    min-height: 1000px;
+}
+
+#bilde{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
 
 #topBox {
     position: relative;
     margin-top: 6%;
     width: 100%;
-    height: 12%;
+    height: 10%;
     background-color: #D8D8D8; 
     opacity: 0.9;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
@@ -18,11 +37,11 @@
 #logobox{
     position: relative;
     margin: auto;
-    top: -20%;
-    left: -47%;
-    height: 25%;
-    width: 15%;
-    border-radius: 10%;
+    top: -13.5%;
+    left: 4%;
+    height: 16%;
+    width: 16%;
+    border-radius: 0%;
     float: left;
     background-color: whitesmoke;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
@@ -37,48 +56,22 @@
     
 }
 
-.icon{
-    position: relative;
-    left: 2%;
-    top: 10%;
-    height: 75%;
-    width: 16%;
-    margin-left: -1%;
-}
 
-#tips{
-    position: relative;
-    left: 2%;
-    top: 10%;
-    height: 80%;
-    width: 12%;
-    margin-left: -4%;
-}
-
-
-#body{
-    background-image: url(img/Westerdal1-1500x750.jpg);
-    background-size: cover;
-     font-family: "Inconsolata", sans-serif;
-}
-
-#html, body{
-    height: 100%;
-    width: 100%;
-    Margin: 0;
-}
 
 #contentBox{
     position: relative;;
-    top: -50px;
-    margin: auto;
+    top: 70px;
+    right: -7%;
+    margin: 0;
+    padding: 0;
     margin-bottom: 10%;
     border: 1px;
     padding: 10px;
     display: table;
     background-color:#FAFAFA;
-    width: 80%;
+    width: 85%;
     opacity: 0.9;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #bottomBoxContainer{
@@ -230,6 +223,24 @@
     transition: .4s ease-in-out;
 }
 
+#nav8 ul li{
+    
+    list-style: none;
+    float: right;
+    margin: 0;
+    left: 15%;
+    margin-top: -4.5%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align:center;
+    border-radius: 50%;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    transition: .4s ease-in-out;
+}
+
 #nav1 ul li{ 
      background: #FFD080;
     color:white;
@@ -263,6 +274,11 @@
 
 #nav7 ul li{
      background: #BC2B40;
+    color: white;
+}
+
+#nav8 ul li{
+     background: #61AFCA;
     color: white;
 }
 
@@ -363,6 +379,20 @@
 }
 
 
+#nav8 ul li:before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: .5s ease-in-out;
+    z-index: -1;
+}
+
 
 
 #nav1 ul li:hover :before{
@@ -390,6 +420,10 @@
 }
 
 #nav7 ul li:hover :before{
+    transform: scale(.5);
+}
+
+#nav8 ul li:hover :before{
     transform: scale(.5);
 }
 
@@ -429,11 +463,17 @@
     color:#BC2B40;
 }
 
+#nav8 ul li:hover{
+    background: #D8D8D8;
+    color:#BC2B40;
+}
+
 
 #footer{
-    position: relative;
+    position: fixed;
     width: 100%;
     height: 9%;
+    bottom: 0;
     background-color: #FAFAFA;
     opacity: 0.9;
     text-align: center;
