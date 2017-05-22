@@ -121,7 +121,8 @@
 
 #logobox{
     position: relative;
-    margin: auto;
+    margin: 0;
+    padding: 0;
     top: -13.5%;
     left: 4%;
     height: 16%;
