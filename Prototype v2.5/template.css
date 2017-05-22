@@ -34,6 +34,91 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
 }
 
+#ftext1
+{
+    position: relative;
+    margin: auto;
+    top: -5px;
+    right: 15px;
+    text-align: center;
+    color: black;
+    font-size: 0.7em;
+}
+#ftext2
+{
+    position: relative;
+    margin: auto;
+    top: -5px;
+    right: 15px;
+    text-align: center;
+    color: black;
+    font-size: 0.7em;
+}
+#ftext3
+{
+    position: relative;
+    margin: auto;
+    top: -5px;
+    right: 15px;
+    text-align: center;
+    color: black;
+    font-size: 0.7em;
+}
+#ftext4
+{
+    position: relative;
+    margin: auto;
+    top: -5px;
+    right: 15px;
+    text-align: center;
+    color: black;
+    font-size: 0.7em;
+}
+#ftext5
+{
+    position: relative;
+    margin: auto;
+    top: -5px;
+    right: 15px;
+    text-align: center;
+    color: black;
+    font-size: 0.7em;
+}
+#ftext6
+{
+    position: relative;
+    margin: auto;
+    top: -5px;
+    right: 15px;
+    text-align: center;
+    color: black;
+    font-size: 0.7em;
+}
+#ftext7
+{
+    position: relative;
+    margin: auto;
+    top: -5px;
+    right: 15px;
+    text-align: center;
+    color: black;
+    font-size: 0.6em;
+}
+#ftext8
+{
+    position: relative;
+    margin: auto;
+    top: -5px;
+    right: 15px;
+    text-align: center;
+    color: black;
+    font-size: 0.7em;
+}
+
+
+
+
+
 #logobox{
     position: relative;
     margin: auto;
@@ -79,7 +164,7 @@
     margin: auto;
     border: 2px;
     padding: 15px;
-    display: table;
+    display:table;
     width: 70%;
 }
 
@@ -133,39 +218,6 @@
 }
 
 
-#search{
-    position: relative;
-    margin:0;
-    margin-top: 1.6%;
-    right: 1%;
-    float: right;
-    border-radius: 4%;
-    width: 200px;
-    padding: 7px;
-    border: 1px solid #333;
-    opacity: 0.8;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#submit{
-    position: relative;
-    margin: 0;
-    margin-top: 1.6%;
-    right: 1.5%;
-    border-radius: 14%;
-    float:right;
-    padding: 7px;
-    background: rgb(46, 65,81);
-    border: 1px solid #333;
-    color: white;
-    opacity: 0.8;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
-}
-
-#submit:hover{
-    background: white;
-    transition: all 0.20s;
-}
 
 #topbox ul{
     margin: 2%;
@@ -190,9 +242,9 @@
 #nav1 ul li, #nav2 ul li, #nav3 ul li, #nav4 ul li, #nav5 ul li, #nav6 ul li{
     list-style: none;
     float: left;
-    margin: 2%;
+    margin: 2.5%;
     margin-top: 1%;
-    left: 20%;
+    left: 35%;
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -201,7 +253,7 @@
     font-size: 20px;
     position: relative;
     z-index: 1;
-    transition: .4s ease-in-out
+    transition: .4s ease-in-out;
     
 }
 
@@ -210,7 +262,7 @@
     list-style: none;
     float: right;
     margin: 0;
-    left: 20%;
+    left: -3%;
     margin-top: -4.5%;
     width: 35px;
     height: 35px;
@@ -228,7 +280,7 @@
     list-style: none;
     float: right;
     margin: 0;
-    left: 15%;
+    left: -9%;
     margin-top: -4.5%;
     width: 35px;
     height: 35px;
