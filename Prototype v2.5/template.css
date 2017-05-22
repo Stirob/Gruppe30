@@ -2,6 +2,7 @@
 #body{
     Margin: 0;
     padding: 0;
+    background-size: cover;
     background: url(img/Westerdal1.5-1500x750.jpg);
      font-family: "Inconsolata", sans-serif;
 }
@@ -164,12 +165,12 @@
     border: 2px;
     padding: 15px;
     display:table;
-    width: 70%;
+    width: 75%;
 }
 
 #bottomBox1, #bottomBox2, #bottomBox3  {
     position: relative;
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
     display: table;
     background-color:darkgrey;
@@ -181,7 +182,7 @@
 }
 
 #bottomBox2, #bottomBox3{
-    margin-left: 5%;
+    margin-left: 3%;
 }
 
 .bottomBoxImage{
