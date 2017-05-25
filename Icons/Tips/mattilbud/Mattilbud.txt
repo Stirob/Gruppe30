@@ -1,0 +1,7 @@
+Navn på app : Mattilbud
+
+Hva er dette? 
+
+Mattilbud appen viser alle de kjente norske
+matvare butikker, der studenter (og andre) kan lett
+finne billige varer og sjekke tilbudene til butikker.

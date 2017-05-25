@@ -1,0 +1,6 @@
+Navn på app : RuterReise & RuterBilett
+
+Hva er dette?
+
+Ruter har 2 apper. 1 Til bilett tjenester og 1 til
+å sjekke når all offentlig transport foregår.

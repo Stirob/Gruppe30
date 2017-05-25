@@ -1,0 +1,7 @@
+Navn på app : Æ - REMA 1000
+
+Hva er dette?
+
+Æ er en app fra Rema 1000 som gir deg 10% redusert 
+pris på de 10 mest kjøpte varene du har. Ofte har
+også Rema 1000 supertilbud til medlemmer.
