@@ -1,0 +1,23 @@
+.title{
+    position: relative;
+    margin: auto;
+    top: 10px;
+}
+
+.subPageContentDiv{
+    position: relative;
+    margin: auto;
+    width: 440px;
+    height: 300px;
+    background-color:#e0e0eb;
+    opacity: 0.5;
+    top: 20px;
+}
+
+.subPagetextDiv{
+    position: relative;
+    width: 325px;
+    height: 280px;
+    bottom: 75px;
+    left: 100px;
+}
