@@ -76,7 +76,8 @@
 #ftext1
 {
     position: relative;
-    margin: auto;
+    margin: 0;
+    padding: 0;
     bottom: 20%;
     right: 10%;
     text-align: center;
@@ -86,7 +87,8 @@
 #ftext2
 {
     position: relative;
-    margin: auto;
+    margin: 0;
+    padding: 0;
     bottom: 20%;
     right: 2%;
     text-align: center;
@@ -96,7 +98,8 @@
 #ftext3
 {
     position: relative;
-    margin: auto;
+    margin: 0;
+    padding: 0;
     bottom: 20%;
     right: 30%;
     text-align: center;
@@ -106,7 +109,8 @@
 #ftext4
 {
     position: relative;
-    margin: auto;
+    margin: 0;
+    padding: 0;
     bottom: 20%;
     right: 15%;
     text-align: center;
@@ -116,7 +120,8 @@
 #ftext5
 {
     position: relative;
-    margin: auto;
+    margin: 0;
+    padding: 0;
     bottom: 20%;
     text-align: center;
     color: white;
@@ -125,7 +130,8 @@
 #ftext6
 {
     position: relative;
-    margin: auto;
+    margin: 0;
+    padding: 0;
     bottom: 20%;
     text-align: center;
     color: white;
@@ -152,8 +158,8 @@
     padding: 0;
     top: -10%;
     left: 4%;
-    height: 15%;
-    width: 14%;
+    height: 17%;
+    width: 13%;
     border-radius: 0%;
     background-color: ghostwhite;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
@@ -192,13 +198,13 @@
     border: 2px;
     padding: 15px;
     display:table;
-    width: 75%;
+    width: 95%;
 }
 
 #bottomBox1, #bottomBox2, #bottomBox3  {
     position: relative;
     margin-top: 30px;
-    text-align: center;
+    padding: 10px;;
     display: table;
     background-color:darkgrey;
     width: 30%;
@@ -210,14 +216,27 @@
 }
 
 #bottomBox2, #bottomBox3{
-    margin-left: 3%;
+    margin-left: 2%;
 }
 
-.bottomBoxImage{
+.bottomBoxImage1{
     height: 150px;
     background-image: url(img/Westerdal1-1500x750.jpg);
     background-size: cover;
 }
+
+.bottomBoxImage2{
+    height: 150px;
+    background-image: url(img/Fasade-fra-gaten.jpg);
+    background-size: cover;
+}
+
+.bottomBoxImage3{
+    height: 150px;
+    background-image: url(img/brenneriveien-960x640.jpg);
+    background-size: cover;
+}
+
 
 
 #nav1 ul li, #nav2 ul li, #nav3 ul li, #nav4 ul li, #nav5 ul li, #nav6 ul li, #nav7 ul li{
@@ -235,6 +254,7 @@
     position: relative;
     z-index: 1;
     transition: .4s ease-in-out;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
 
