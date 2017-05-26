@@ -1,0 +1,393 @@
+#topBox {
+    position: relative;
+    margin-top: 6%;
+    width: 100%;
+    height: 12%;
+    background-color: #D8D8D8; 
+    opacity: 0.9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+
+#westerdalslogo{
+    position: relative;
+    height: 70%;
+    width: 10%;
+    left: 1%;
+    top: 1%;
+}
+
+.icon{
+    position: relative;
+    left: 2%;
+    top: 10%;
+    height: 75%;
+    width: 16%;
+    margin-left: -1%;
+}
+
+#tips{
+    position: relative;
+    left: 2%;
+    top: 10%;
+    height: 80%;
+    width: 12%;
+    margin-left: -4%;
+}
+
+
+#body{
+    background-image: url(img/Westerdals-1500x750.jpg);
+    background-size: cover;
+     font-family: "Inconsolata", sans-serif;
+}
+
+#html, body{
+    height: 100%;
+    width: 100%;
+    Margin: 0;
+}
+
+#contentBox{
+    position: static;
+    margin: auto;
+    margin-top: 8%;
+    border: 1px;
+    padding: 10px;
+    display: table;
+    background-color:#FAFAFA;
+    width: 60%;
+    opacity: 0.9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+
+.innlegg{
+    position: static;
+    margin-top: 50px;
+    border: 1px;
+    padding: 10px;
+    display: table;
+    width: 98%;
+    background-color: #a6a6a6;
+}
+
+.innleggBilde{
+    position: relative;
+    height: 200px;
+    left: 20.4%;
+    top: -20px;
+}
+
+.innleggTekst{
+    position: relative;
+    margin: auto;
+    top: 0%;
+    left: 20%;
+    width: 50%;
+    display: inline-block;
+}
+
+.vote{
+    position: relative;
+    margin: 10px;
+    height: 50px;    
+}
+
+#downvote{
+    top: 60px;
+    left: -62px;
+}
+
+.voteNumber{
+    position: relative;
+    top: -120px;
+    left: 50px;
+}
+
+#search{
+    position: relative;
+    margin:0;
+    margin-top: -2.5%;
+    right: 1%;
+    float: right;
+    width: 200px;
+    padding: 7px;
+    border: 1px solid #333;
+    opacity: 0.8;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#submit{
+    position: relative;
+    margin: 0;
+    margin-top: -2.5%;
+    right: 1%;
+    float:right;
+    padding: 7px;
+    background: rgb(46, 65,81);
+    border: 1px solid #333;
+    color: white;
+    opacity: 0.8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+
+#submit:hover{
+    background: white;
+    transition: all 0.20s;
+}
+
+#topbox ul{
+    margin: 2%;
+    margin-bottom: 10%;
+    padding: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#text{
+    list-style: none;
+    position: relative;
+    bottom: 15px;
+    margin: -40%;
+    line-height: 10px;
+    font-size: 20px;
+    
+}
+
+#nav1 ul li, #nav2 ul li, #nav3 ul li, #nav4 ul li, #nav5 ul li, #nav6 ul li{
+    list-style: none;
+    float: left;
+    margin: 2%;
+    margin-top: -5%;
+    left: 20%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align:center;
+    border-radius: 50%;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    transition: .4s ease-in-out
+    
+}
+
+#nav7 ul li{
+    
+    list-style: none;
+    float: right;
+    margin: 0;
+    right: 1%;
+    margin-top: -9.5%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align:center;
+    border-radius: 50%;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    transition: .4s ease-in-out;
+}
+
+#nav1 ul li{ 
+     background: #FFD080;
+    color:white;
+    
+}
+#nav2 ul li{
+     background: #795580;
+    color: white;
+}
+
+#nav3 ul li{
+
+     background:#7EC59D;
+    color: white;
+}
+
+#nav4 ul li{
+     background: #61AFCA;
+    color: white;
+}
+
+#nav5 ul li{
+     background: #BC2B40;
+    color: white;
+}
+
+#nav6 ul li{
+     background: #F4FA58;
+    color: white;
+}
+
+#nav7 ul li{
+     background: #BC2B40;
+    color: white;
+}
+
+
+
+#nav1 ul li:before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background: white;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: .5s ease-in-out;
+    position: absolute;
+}
+
+#nav2 ul li:before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background: white;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: .5s ease-in-out;
+    position: absolute;
+}
+
+#nav3 ul li:before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background: white;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: .5s ease-in-out;
+    position: absolute;
+}
+
+#nav4 ul li:before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background: white;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: .5s ease-in-out;
+    position: absolute;
+}
+
+#nav5 ul li:before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: .5s ease-in-out;
+    z-index: -1;
+}
+
+#nav6 ul li:before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: .5s ease-in-out;
+    z-index: -1;
+}
+
+#nav7 ul li:before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: .5s ease-in-out;
+    z-index: -1;
+}
+
+
+
+
+#nav1 ul li:hover :before{
+    transform: scale(.5);
+}
+
+#nav2 ul li:hover :before{
+    transform: scale(.5);
+}
+
+#nav3 ul li:hover :before{
+    transform: scale(.5);
+}
+
+#nav4 ul li:hover :before{
+    transform: scale(.5);
+}
+
+#nav5 ul li:hover :before{
+    transform: scale(.5);
+}
+
+#nav6 ul li:hover :before{
+    transform: scale(.5);
+}
+
+#nav7 ul li:hover :before{
+    transform: scale(.5);
+}
+
+
+#nav1 ul li:hover{
+    background: #D8D8D8;
+    color: #FFD080;
+}
+
+#nav2 ul li:hover{
+    background: #D8D8D8;
+    color:#795580;
+}
+
+#nav3 ul li:hover{
+    background: #D8D8D8;
+    color:#7EC59D;
+}
+
+#nav4 ul li:hover{
+    background: #D8D8D8;
+    color:#61AFCA;
+}
+
+#nav5 ul li:hover{
+    background: #D8D8D8;
+    color:#BC2B40;
+}
+
+#nav6 ul li:hover{
+    background: #D8D8D8;
+    color:#F4FA58;
+}
+
+#nav7 ul li:hover{
+    background: #D8D8D8;
+    color:#BC2B40;
+}
+
+

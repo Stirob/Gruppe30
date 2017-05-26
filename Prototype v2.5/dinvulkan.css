@@ -1,0 +1,337 @@
+#body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    
+}
+
+#Tmeny{
+    position: relative;
+    margin:auto;
+    top: -2.8%;
+    width: 100%;
+    height: 7%;
+    background-color: dimgrey;
+    }
+
+#Hmeny{
+    position: relative;
+    margin: 0 auto;
+    top: -5.6%;
+    width: 100%;
+    height: 17%;
+    background-color: whitesmoke;
+}
+
+#logo{
+    position: relative;
+    margin: auto;
+    height: 90%;
+    width: 9%;
+    float: left;
+    left: 3%;
+    padding: 5px
+}
+
+#bWrap{
+    position: relative;
+    margin: auto;
+    top: -5.6%;
+    width: 100%;
+    height: 65%;
+    background-size: 100%;
+}
+#bilde{
+    position: relative;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    filter: blur(0.5px);
+    -webkit-filter:blur(0.5px);
+}
+
+#btext{
+    position: relative;
+    bottom: 100%;
+    left: 5%;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    font-size: 2.5em;
+}
+#btext2{
+    position: relative;
+    bottom: 100%;
+    left: 15%;
+    color: white;
+    z-index: 2;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+contentWrap{
+    position: relative;
+    margin: auto;
+    height: 70%;
+    width: 50%;
+    background-color: yellow;
+    
+    
+}
+
+
+#footer{
+    position: relative;
+    width: 100%;
+    height: 9%;
+    bottom: 1%;
+    background-color: fuchsia;
+    
+}
+
+#ftext1{
+    position: relative;
+    margin: auto;
+    top: -5px;
+    right: 15px;
+    text-align: center;
+    color: black;
+    font-size: 0.7em;
+}
+
+
+
+#nav1 ul li, #nav2 ul li, #nav3 ul li, #nav4 ul li, #nav5 ul li, #nav6 ul li{
+    list-style: none;
+    float: left;
+    margin: 2.4%;
+    top: -10px;
+    left: 35%;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align:center;
+    border-radius: 50%;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    transition: .4s ease-in-out
+    
+}
+
+#nav7 ul li{
+    
+    list-style: none;
+    float: right;
+    margin: 0;
+    left: -5%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align:center;
+    border-radius: 50%;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    transition: .4s ease-in-out;
+}
+
+#nav1 ul li{ 
+     background: #FFD080;
+    color:white;
+    
+}
+#nav2 ul li{
+     background: #795580;
+    color: white;
+}
+
+#nav3 ul li{
+
+     background:#7EC59D;
+    color: white;
+}
+
+#nav4 ul li{
+     background: #61AFCA;
+    color: white;
+}
+
+#nav5 ul li{
+     background: #BC2B40;
+    color: white;
+}
+
+#nav6 ul li{
+     background: #F4FA58;
+    color: white;
+}
+
+#nav7 ul li{
+     background: #BC2B40;
+    color: white;
+}
+
+
+
+#nav1 ul li:before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background: white;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: .5s ease-in-out;
+    position: absolute;
+}
+
+#nav2 ul li:before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background: white;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: .5s ease-in-out;
+    position: absolute;
+}
+
+#nav3 ul li:before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background: white;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: .5s ease-in-out;
+    position: absolute;
+}
+
+#nav4 ul li:before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background: white;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: .5s ease-in-out;
+    position: absolute;
+}
+
+#nav5 ul li:before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: .5s ease-in-out;
+    z-index: -1;
+}
+
+#nav6 ul li:before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: .5s ease-in-out;
+    z-index: -1;
+}
+
+#nav7 ul li:before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: .5s ease-in-out;
+    z-index: -1;
+}
+
+
+
+
+#nav1 ul li:hover :before{
+    transform: scale(.5);
+}
+
+#nav2 ul li:hover :before{
+    transform: scale(.5);
+}
+
+#nav3 ul li:hover :before{
+    transform: scale(.5);
+}
+
+#nav4 ul li:hover :before{
+    transform: scale(.5);
+}
+
+#nav5 ul li:hover :before{
+    transform: scale(.5);
+}
+
+#nav6 ul li:hover :before{
+    transform: scale(.5);
+}
+
+#nav7 ul li:hover :before{
+    transform: scale(.5);
+}
+
+
+#nav1 ul li:hover{
+    background: #D8D8D8;
+    color: #FFD080;
+}
+
+#nav2 ul li:hover{
+    background: #D8D8D8;
+    color:#795580;
+}
+
+#nav3 ul li:hover{
+    background: #D8D8D8;
+    color:#7EC59D;
+}
+
+#nav4 ul li:hover{
+    background: #D8D8D8;
+    color:#61AFCA;
+}
+
+#nav5 ul li:hover{
+    background: #D8D8D8;
+    color:#BC2B40;
+}
+
+#nav6 ul li:hover{
+    background: #D8D8D8;
+    color:#F4FA58;
+}
+
+#nav7 ul li:hover{
+    background: #D8D8D8;
+    color:#BC2B40;
+}
