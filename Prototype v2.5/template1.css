@@ -144,10 +144,10 @@
     position: relative;
     margin: auto;
     bottom: 20%;
-    right: 15px;
+    right: 19px;
     text-align: center;
     color: white;
-    font-size: 0.6em;
+    font-size: 0.7em;
 }
 
 
@@ -198,7 +198,7 @@
     position: relative;
     margin: auto;
     border: 2px;
-    padding: 15px;
+    padding: 14px;
     display:table;
     width: 80%;
 }
@@ -206,7 +206,7 @@
 #bottomBox1, #bottomBox2, #bottomBox3  {
     position: relative;
     margin-top: 10px;
-    padding: 8px;
+    padding: 7px;
     display:block;
     background-color:#585858;
     color: white;
@@ -288,7 +288,7 @@
 }
 
 #nav2 ul li{
-     background: #795580;
+     background: #FF7061;
     color: white;
 }
 
@@ -314,12 +314,7 @@
 }
 
 #nav7 ul li{
-     background-color:#FF7061;
-    color: white;
-}
-
-#nav8 ul li{
-     background: grey;
+     background-color:#795580;
     color: white;
 }
 
@@ -477,8 +472,10 @@
 
 #nav2 ul li:hover{
     background: #585858;
-    color:#795580;
-     box-shadow: 0 6px 8px 0 rgba(121,85,128, 0.2), 0 6px 20px 0 rgba(121, 85, 128, 0.19);
+    color:#FF7061;
+     box-shadow: 0 6px 8px 0 
+    rgba(255,112 ,97, 0.2), 0 6px 20px 0
+    rgba(255,112,97, 0.19);
 }
 
 #nav3 ul li:hover{
@@ -511,10 +508,8 @@
 
 #nav7 ul li:hover{
     background: #585858;
-    color:#FF7061;
-    box-shadow: 0 6px 8px 0 
-    rgba(255,112 ,97, 0.2), 0 6px 20px 0
-    rgba(255,112,97, 0.19);
+    color:#795580;
+    box-shadow: 0 6px 8px 0 rgba(121,85,128, 0.2), 0 6px 20px 0 rgba(121, 85, 128, 0.19);
 }
 
 #nav8 ul li:hover{
