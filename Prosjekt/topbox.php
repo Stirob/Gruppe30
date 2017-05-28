@@ -76,7 +76,7 @@
             <ul>
               <li id="1">
                     <i class="fa fa-user-circle" aria-hidden="true"></i>
-                   <p id="ftext7">MIN-SIDE</p>
+                   <p id="ftext7">MINSIDE</p>
                 </li>
             </ul>
                 </a>

@@ -483,14 +483,14 @@ CB: content bilde boks.
 #CT{
     position: relative;
     margin-top: 10px;
-    top:-150px;
+    top:0;
     padding: 8px;
     left: 35%;
     display:block;
     background-color:ghostwhite;
     color: black;
     width: 60%;
-    height: 180px;
+    height: 300px;
     display: inline-block;
     border-radius: 1%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
