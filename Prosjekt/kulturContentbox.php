@@ -14,6 +14,9 @@ $kultur = Kultur::all();
 ?>
 
 <div id="contentBox">
+    <div id="head">
+        <h1>Kultur</h1>
+    </div>
     <div id="cWrap">
         <?php foreach ($kultur as $ok) { ?>
         <div id="CT">

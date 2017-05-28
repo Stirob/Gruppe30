@@ -14,6 +14,9 @@ $trening = Trening::all();
 ?>
 
 <div id="contentBox">
+    <div id="head">
+        <h1>Trening</h1>
+    </div>
     <div id="cWrap">
         <?php foreach ($trening as $ok) { ?>
         <div id="CT">

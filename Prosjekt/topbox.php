@@ -43,7 +43,7 @@
                 <ul>
                 <li id="4">
                     <i class="fa fa-bus" aria-hidden="true"></i>
-                     <p id="ftext4">KOLLEKTIV</p>
+                     <p id="ftext4">TRANSPORT</p>
                 </li>
                 </ul>
                 </a>
@@ -76,7 +76,7 @@
             <ul>
               <li id="1">
                     <i class="fa fa-user-circle" aria-hidden="true"></i>
-                   <p id="ftext7">Min-Side</p>
+                   <p id="ftext7">MIN-SIDE</p>
                 </li>
             </ul>
                 </a>

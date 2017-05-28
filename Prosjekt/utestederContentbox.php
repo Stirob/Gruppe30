@@ -14,6 +14,9 @@ $utesteder = Utesteder::all();
 ?>
 
 <div id="contentBox">
+    <div id="head">
+        <h1>Utesteder</h1>
+    </div>
     <div id="cWrap">
         <?php foreach ($utesteder as $ok) { ?>
         <div id="CT">

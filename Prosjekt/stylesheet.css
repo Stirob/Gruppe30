@@ -7,47 +7,6 @@
      font-family: ‘Lucida Console’, Monaco, monospace;
 }
 
-#BgWrap{
-    position: relative;
-    margin: 0;
-    top: 100%;
-    width: 100%;
-    height: 440%;
-}
-
-#BG{
-    position: relative;
-    margin: 0;
-    margin-top: -7.5%;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    filter: blur(5px);
-    filter:grayscale(35%);
-}
-
-#Bgtext1{
-    position: relative;
-    margin: 0;
-    padding: 0;
-    bottom: 75%;
-    left: 15%;
-    color: white;
-    font-size:3em
-}
-
-#Bgtext2{
-    position: relative;
-    margin: 0;
-    padding: 0;
-    bottom: 70%;
-    left: 40%;
-    color: white;
-    font-size:3em
-}
-
-
-
 #wrap{
     position: absolute;
     width: 100%;
@@ -56,14 +15,7 @@
     min-height: 1000px;
 }
 
-#bilde{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-
+/*Header*/
 
 #topBox {
     position: relative;
@@ -74,85 +26,6 @@
     height: 10%;
     background-color: #585858;
 }
-
-#ftext1
-{
-    position: relative;
-    margin: 0;
-    padding: 0;
-    bottom: 20%;
-    right: 10%;
-    text-align: center;
-    color: white;
-    font-size: 0.7em;
-}
-#ftext2
-{
-    position: relative;
-    margin: 0;
-    padding: 0;
-    bottom: 20%;
-    right: 2%;
-    text-align: center;
-    color: white;
-    font-size: 0.7em;
-}
-#ftext3
-{
-    position: relative;
-    margin: 0;
-    padding: 0;
-    bottom: 20%;
-    right: 30%;
-    text-align: center;
-    color: white;
-    font-size: 0.7em;
-}
-#ftext4
-{
-    position: relative;
-    margin: 0;
-    padding: 0;
-    bottom: 20%;
-    right: 15%;
-    text-align: center;
-    color: white;
-    font-size: 0.7em;
-}
-#ftext5
-{
-    position: relative;
-    margin: 0;
-    padding: 0;
-    bottom: 20%;
-    text-align: center;
-    color: white;
-    font-size: 0.7em;
-}
-#ftext6
-{
-    position: relative;
-    margin: 0;
-    padding: 0;
-    bottom: 20%;
-    text-align: center;
-    color: white;
-    font-size: 0.7em;
-}
-#ftext7
-{
-    position: relative;
-    margin: auto;
-    bottom: 20%;
-    right: 15px;
-    text-align: center;
-    color: white;
-    font-size: 0.6em;
-}
-
-
-
-
 
 #logobox{
     position: relative;
@@ -176,73 +49,7 @@
     
 }
 
-
-
-#contentBox{
-    position: relative;;
-    top: 150px;
-    right: -9%;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 10%;
-    border: 1px;
-    padding: 10px;
-    display: table;
-    background-color:#FAFAFA;
-    width: 80%;
-    opacity: 0.9;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#bottomBoxContainer{
-    position: relative;
-    margin: auto;
-    border: 2px;
-    padding: 15px;
-    display:table;
-    width: 100%;
-    text-align: center;
-}
-
-#bottomBox1, #bottomBox2, #bottomBox3  {
-    position: relative;
-    margin-top: 10px;
-    padding: 8px;
-    display:block;
-    background-color:#585858;
-    color: white;
-    width: 25%;
-    height: 550px;
-    display: inline-block;
-    border-radius: 1%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
-    
-}
-
-#bottomBox2, #bottomBox3{
-    margin-left: 2%;
-}
-
-.bottomBoxImage1{
-    height: 150px;
-    background-image: url(img/Westerdal1-1500x750.jpg);
-    background-size: cover;
-}
-
-.bottomBoxImage2{
-    height: 150px;
-    background-image: url(img/Fasade-fra-gaten.jpg);
-    background-size: cover;
-}
-
-.bottomBoxImage3{
-    height: 150px;
-    background-image: url(img/brenneriveien-960x640.jpg);
-    background-size: cover;
-}
-
-
+/*Header iconer*/
 
 #nav1 ul li, #nav2 ul li, #nav3 ul li, #nav4 ul li, #nav5 ul li, #nav6 ul li, #nav7 ul li{
     list-style: none;
@@ -263,23 +70,7 @@
     
 }
 
-#nav8 ul li{
-    
-    list-style: none;
-    float: right;
-    margin: 0;
-    left: -9%;
-    margin-top: -4.5%;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    text-align:center;
-    border-radius: 50%;
-    font-size: 20px;
-    position: relative;
-    z-index: 1;
-    transition: .4s ease-in-out;
-}
+
 
 #nav1 ul li{ 
      background: #FFD080;
@@ -287,7 +78,7 @@
     
 }
 #nav2 ul li{
-     background: #795580;
+     background: #FF7061;
     color: white;
 }
 
@@ -313,12 +104,7 @@
 }
 
 #nav7 ul li{
-     background-color:#FF7061;
-    color: white;
-}
-
-#nav8 ul li{
-     background: grey;
+     background-color:#795580;
     color: white;
 }
 
@@ -419,21 +205,6 @@
 }
 
 
-#nav8 ul li:before{
-    content: '';
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: white;
-    border-radius: 50%;
-    transform: scale(0);
-    transition: .5s ease-in-out;
-    z-index: -1;
-}
-
-
 
 #nav1 ul li:hover :before{
     transform: scale(.5);
@@ -463,9 +234,6 @@
     transform: scale(.5);
 }
 
-#nav8 ul li:hover :before{
-    transform: scale(.5);
-}
 
 
 #nav1 ul li:hover{
@@ -479,8 +247,8 @@
 
 #nav2 ul li:hover{
     background: #585858;
-    color:#795580;
-     box-shadow: 0 6px 8px 0 rgba(121,85,128, 0.2), 0 6px 20px 0 rgba(121, 85, 128, 0.19);
+    color:#FF7061;
+     box-shadow: 0 6px 8px 0 rgba(255,112,97, 0.2), 0 6px 20px 0 rgba(255, 122, 97, 0.19);
 }
 
 #nav3 ul li:hover{
@@ -513,15 +281,194 @@
 
 #nav7 ul li:hover{
     background: #585858;
-    color:#FF7061;
+    color:#795580;
     box-shadow: 0 6px 8px 0 
-    rgba(255,112 ,97, 0.2), 0 6px 20px 0
-    rgba(255,112,97, 0.19);
+    rgba(121,85 ,128, 0.2), 0 6px 20px 0
+    rgba(121,85,128, 0.19);
 }
 
-#nav8 ul li:hover{
-    background: #585858;
-    color:white;
+/*text under menyen*/
+
+#ftext1
+{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    bottom: 20%;
+    right: 10%;
+    text-align: center;
+    color: white;
+    font-size: 0.7em;
+}
+#ftext2
+{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    bottom: 20%;
+    right: 2%;
+    text-align: center;
+    color: white;
+    font-size: 0.7em;
+}
+#ftext3
+{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    bottom: 20%;
+    right: 30%;
+    text-align: center;
+    color: white;
+    font-size: 0.7em;
+}
+#ftext4
+{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    bottom: 20%;
+    right: 15%;
+    text-align: center;
+    color: white;
+    font-size: 0.7em;
+}
+#ftext5
+{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    bottom: 20%;
+    text-align: center;
+    color: white;
+    font-size: 0.7em;
+}
+#ftext6
+{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    bottom: 20%;
+    text-align: center;
+    color: white;
+    font-size: 0.7em;
+}
+#ftext7
+{
+    position: relative;
+    margin: auto;
+    bottom: 20%;
+    right: 15px;
+    text-align: center;
+    color: white;
+    font-size: 0.7em;
+}
+
+/*bakgrunns bilde*/
+
+#BgWrap{
+    position: relative;
+    margin: 0;
+    top: 100%;
+    width: 100%;
+    height: 440%;
+}
+
+#BG{
+    position: relative;
+    margin: 0;
+    margin-top: -7.5%;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+    filter:grayscale(35%);
+}
+
+/*content box for alle sider*/
+
+#contentBox{
+    position: relative;;
+    top: 150px;
+    right: -9%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10%;
+    border: 1px;
+    padding: 10px;
+    display: table;
+    background-color:#FAFAFA;
+    width: 80%;
+    opacity: 0.9;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*innhold i content boksen for forsiden*/
+
+#bottomBoxContainer{
+    position: relative;
+    margin: auto;
+    border: 2px;
+    padding: 15px;
+    display:table;
+    width: 100%;
+    text-align: center;
+}
+
+#bottomBox1, #bottomBox2, #bottomBox3  {
+    position: relative;
+    top: 20px;
+    padding: 8px;
+    background-color:#585858;
+    color: white;
+    width: 22%;
+    height: 500px;
+    display: inline-block;
+    border-radius: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+}
+
+#bottomBox2, #bottomBox3{
+    margin-left: 2%;
+}
+
+#bottomBox2{
+    top:-115px;
+}
+#bottomBox3{
+    top:3px;
+}
+
+.bottomBoxImage1{
+    height: 150px;
+    background-image: url(img/Westerdal1-1500x750.jpg);
+    background-size: cover;
+}
+
+.bottomBoxImage2{
+    height: 150px;
+    background-image: url(img/Fasade-fra-gaten.jpg);
+    background-size: cover;
+}
+
+.bottomBoxImage3{
+    height: 150px;
+    background-image: url(img/brenneriveien-960x640.jpg);
+    background-size: cover;
+}
+
+
+/*content bokser for alle under sider
+CT: content tekst boks.
+CB: content bilde boks.
+*/
+
+#head{
+    text-align: center;
+    color: #585858;
+    font-size: 1.8em;
 }
 
 #cWrap{
@@ -536,6 +483,7 @@
 #CT{
     position: relative;
     margin-top: 10px;
+    top:-150px;
     padding: 8px;
     left: 35%;
     display:block;
@@ -564,14 +512,67 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }   
 
-#footer{
-    position: fixed;
+/*content for min-side*/
+
+#logwrap{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    background-color:  #585858;
+    border-radius: 4px;
+    margin: 0 auto;
     margin-top: 100px;
+    margin-bottom: 90px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#logwrap img{
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type="text"], input[type="password"]{
+    height: 45px;
+    width: 300px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+form-input:before{
+    content:"\f007";
+    position: absolute;
+    font-size: 30px;
+    color: #985986;
+    padding-top: 5px;
+    font-size: 35px;
+}
+
+#btn-login{
+    padding: 15px 25px;
+    color: #fff;
+    background-color: #2ECC71;
+    border: none;
+    border-radius: 4px;
+    border-bottom: 4px solid #27AE60;
+}
+
+/*footer*/
+
+#footer{
+    position: relative;
     width: 100%;
-    height: 9%;
-    bottom: 0;
-    background-color: #FAFAFA;
-    opacity: 0.9;
+    right: 0;
+    bottom: -100px;
+    left: 0;
+    height: 10%;
+    padding:10px;
+    background-color: #585858;
+    color: white;
     text-align: center;
 }
 

@@ -201,3 +201,97 @@ Stack trace:
 #1 /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connectors/Connector.php(98): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=tek....', 'strsim16_vulkan', 'Vulkaner[100%]f...', Array)
 #2 /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connectors/Connector.php(49): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=tek....', 'strsim16_vulkan', 'Vulkaner[100%]f...', Array)
 #3 /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->c in /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connectors/Connector.php on line 68
+[28-May-2017 09:55:20 UTC] PHP Warning:  Packets out of order. Expected 0 received 80. Packet size=5526600 in /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connectors/Connector.php on line 68
+[28-May-2017 09:55:20 UTC] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connectors/Connector.php on line 68
+[28-May-2017 09:55:20 UTC] PHP Warning:  PDO::__construct(): Error while reading greeting packet. PID=3529 in /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connectors/Connector.php on line 68
+[28-May-2017 09:55:50 UTC] PHP Warning:  Packets out of order. Expected 0 received 80. Packet size=5526600 in /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connectors/Connector.php on line 68
+[28-May-2017 09:55:50 UTC] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connectors/Connector.php on line 68
+[28-May-2017 09:55:50 UTC] PHP Warning:  PDO::__construct(): Error while reading greeting packet. PID=3529 in /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connectors/Connector.php on line 68
+[28-May-2017 09:56:20 UTC] PHP Warning:  Packets out of order. Expected 0 received 80. Packet size=5526600 in /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connectors/Connector.php on line 68
+[28-May-2017 09:56:20 UTC] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connectors/Connector.php on line 68
+[28-May-2017 09:56:20 UTC] PHP Warning:  PDO::__construct(): Error while reading greeting packet. PID=3529 in /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connectors/Connector.php on line 68
+[28-May-2017 09:56:50 UTC] PHP Warning:  Packets out of order. Expected 0 received 80. Packet size=5526600 in /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connectors/Connector.php on line 68
+[28-May-2017 09:56:50 UTC] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connectors/Connector.php on line 68
+[28-May-2017 09:56:50 UTC] PHP Warning:  PDO::__construct(): Error while reading greeting packet. PID=3529 in /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connectors/Connector.php on line 68
+[28-May-2017 09:56:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2006] MySQL server has gone away' in /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connectors/Connector.php:68
+Stack trace:
+#0 /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connectors/Connector.php(68): PDO->__construct('mysql:host=tek....', 'strsim16_vulkan', 'Vulkaner[100%]f...', Array)
+#1 /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connectors/Connector.php(98): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=tek....', 'strsim16_vulkan', 'Vulkaner[100%]f...', Array)
+#2 /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connectors/Connector.php(49): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=tek....', 'strsim16_vulkan', 'Vulkaner[100%]f...', Array)
+#3 /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->c in /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connectors/Connector.php on line 68
+[28-May-2017 10:42:04 UTC] PHP Notice:  Undefined variable: stilt in /home/strsim16/public_html/Prosjekt/connection.php on line 25
+[28-May-2017 10:42:54 UTC] PHP Warning:  Packets out of order. Expected 0 received 80. Packet size=5526600 in /home/strsim16/public_html/Prosjekt/connection.php on line 28
+[28-May-2017 10:42:54 UTC] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/strsim16/public_html/Prosjekt/connection.php on line 28
+[28-May-2017 10:42:54 UTC] PHP Warning:  PDO::__construct(): Error while reading greeting packet. PID=15443 in /home/strsim16/public_html/Prosjekt/connection.php on line 28
+[28-May-2017 10:56:37 UTC] PHP Warning:  Packets out of order. Expected 0 received 80. Packet size=5526600 in /home/strsim16/public_html/Prosjekt/connection.php on line 29
+[28-May-2017 10:56:37 UTC] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/strsim16/public_html/Prosjekt/connection.php on line 29
+[28-May-2017 10:56:37 UTC] PHP Warning:  PDO::__construct(): Error while reading greeting packet. PID=18458 in /home/strsim16/public_html/Prosjekt/connection.php on line 29
+[28-May-2017 10:59:34 UTC] PHP Warning:  Packets out of order. Expected 0 received 80. Packet size=5526600 in /home/strsim16/public_html/Prosjekt/connection.php on line 28
+[28-May-2017 10:59:34 UTC] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/strsim16/public_html/Prosjekt/connection.php on line 28
+[28-May-2017 10:59:34 UTC] PHP Warning:  PDO::__construct(): Error while reading greeting packet. PID=19111 in /home/strsim16/public_html/Prosjekt/connection.php on line 28
+[28-May-2017 11:03:46 UTC] PHP Warning:  Packets out of order. Expected 0 received 80. Packet size=5526600 in /home/strsim16/public_html/Prosjekt/connection.php on line 29
+[28-May-2017 11:03:46 UTC] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/strsim16/public_html/Prosjekt/connection.php on line 29
+[28-May-2017 11:03:46 UTC] PHP Warning:  PDO::__construct(): Error while reading greeting packet. PID=20418 in /home/strsim16/public_html/Prosjekt/connection.php on line 29
+[28-May-2017 11:06:23 UTC] PHP Warning:  Packets out of order. Expected 0 received 80. Packet size=5526600 in /home/strsim16/public_html/Prosjekt/connection.php on line 29
+[28-May-2017 11:06:23 UTC] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/strsim16/public_html/Prosjekt/connection.php on line 29
+[28-May-2017 11:06:23 UTC] PHP Warning:  PDO::__construct(): Error while reading greeting packet. PID=20486 in /home/strsim16/public_html/Prosjekt/connection.php on line 29
+[28-May-2017 11:06:24 UTC] PHP Warning:  Packets out of order. Expected 0 received 80. Packet size=5526600 in /home/strsim16/public_html/Prosjekt/connection.php on line 29
+[28-May-2017 11:06:24 UTC] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/strsim16/public_html/Prosjekt/connection.php on line 29
+[28-May-2017 11:06:24 UTC] PHP Warning:  PDO::__construct(): Error while reading greeting packet. PID=20488 in /home/strsim16/public_html/Prosjekt/connection.php on line 29
+[28-May-2017 11:06:26 UTC] PHP Warning:  Packets out of order. Expected 0 received 80. Packet size=5526600 in /home/strsim16/public_html/Prosjekt/connection.php on line 29
+[28-May-2017 11:06:26 UTC] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/strsim16/public_html/Prosjekt/connection.php on line 29
+[28-May-2017 11:06:26 UTC] PHP Warning:  PDO::__construct(): Error while reading greeting packet. PID=20490 in /home/strsim16/public_html/Prosjekt/connection.php on line 29
+[28-May-2017 11:17:07 UTC] PHP Fatal error:  Class 'Illuminate\Database\Capsule\Manager' not found in /home/strsim16/public_html/Prosjekt/connection.php on line 10
+[28-May-2017 11:22:17 UTC] PHP Warning:  require(kulturContentBox.php): failed to open stream: No such file or directory in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 11:22:17 UTC] PHP Fatal error:  require(): Failed opening required 'kulturContentBox.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 11:22:23 UTC] PHP Warning:  require(kulturContentBox.php): failed to open stream: No such file or directory in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 11:22:23 UTC] PHP Fatal error:  require(): Failed opening required 'kulturContentBox.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 11:22:25 UTC] PHP Warning:  require(kulturContentBox.php): failed to open stream: No such file or directory in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 11:22:25 UTC] PHP Fatal error:  require(): Failed opening required 'kulturContentBox.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 11:22:25 UTC] PHP Warning:  require(kulturContentBox.php): failed to open stream: No such file or directory in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 11:22:25 UTC] PHP Fatal error:  require(): Failed opening required 'kulturContentBox.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 11:22:27 UTC] PHP Warning:  require(kulturContentBox.php): failed to open stream: No such file or directory in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 11:22:27 UTC] PHP Fatal error:  require(): Failed opening required 'kulturContentBox.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 11:51:59 UTC] PHP Warning:  require(kulturContentBox.php): failed to open stream: No such file or directory in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 11:51:59 UTC] PHP Fatal error:  require(): Failed opening required 'kulturContentBox.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 11:52:00 UTC] PHP Warning:  require(kulturContentBox.php): failed to open stream: No such file or directory in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 11:52:00 UTC] PHP Fatal error:  require(): Failed opening required 'kulturContentBox.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 11:53:11 UTC] PHP Warning:  require(kulturContentBox.php): failed to open stream: No such file or directory in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 11:53:11 UTC] PHP Fatal error:  require(): Failed opening required 'kulturContentBox.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 11:59:46 UTC] PHP Warning:  require(kulturContentBox.php): failed to open stream: No such file or directory in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 11:59:46 UTC] PHP Fatal error:  require(): Failed opening required 'kulturContentBox.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 11:59:50 UTC] PHP Warning:  require(kulturContentBox.php): failed to open stream: No such file or directory in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 11:59:50 UTC] PHP Fatal error:  require(): Failed opening required 'kulturContentBox.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 11:59:54 UTC] PHP Warning:  require(kulturContentBox.php): failed to open stream: No such file or directory in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 11:59:54 UTC] PHP Fatal error:  require(): Failed opening required 'kulturContentBox.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 12:00:49 UTC] PHP Warning:  require(kulturContentBox.php): failed to open stream: No such file or directory in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 12:00:49 UTC] PHP Fatal error:  require(): Failed opening required 'kulturContentBox.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/strsim16/public_html/Prosjekt/kultur.php on line 5
+[28-May-2017 14:42:07 UTC] PHP Notice:  Undefined index: eksempeltekst in /home/strsim16/public_html/Prosjekt/saveLoggin.php on line 15
+[28-May-2017 14:42:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'eksempeltekst' cannot be null' in /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connection.php:449
+Stack trace:
+#0 /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connection.php(449): PDOStatement->execute()
+#1 /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connection.php(640): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `ek...', Array)
+#2 /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `ek...', Array, Object(Closure))
+#3 /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `ek...', Array, Object(Closure))
+#4 /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->statement('insert into `ek in /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connection.php on line 647
+[28-May-2017 14:43:15 UTC] PHP Warning:  require(Loggin.php): failed to open stream: No such file or directory in /home/strsim16/public_html/Prosjekt/saveLoggin.php on line 8
+[28-May-2017 14:43:15 UTC] PHP Fatal error:  require(): Failed opening required 'Loggin.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/strsim16/public_html/Prosjekt/saveLoggin.php on line 8
+[28-May-2017 14:43:55 UTC] PHP Fatal error:  Class 'Loggin' not found in /home/strsim16/public_html/Prosjekt/saveLoggin.php on line 11
+[28-May-2017 14:44:21 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/strsim16/public_html/Prosjekt/src/Loggin.php on line 5
+[28-May-2017 14:44:59 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/strsim16/public_html/Prosjekt/src/Loggin.php on line 5
+[28-May-2017 14:45:00 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/strsim16/public_html/Prosjekt/src/Loggin.php on line 5
+[28-May-2017 14:45:14 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/strsim16/public_html/Prosjekt/src/Loggin.php on line 5
+[28-May-2017 14:49:04 UTC] PHP Notice:  Undefined index: username in /home/strsim16/public_html/Prosjekt/saveLoggin.php on line 13
+[28-May-2017 14:49:05 UTC] PHP Notice:  Undefined index: password in /home/strsim16/public_html/Prosjekt/saveLoggin.php on line 14
+[28-May-2017 14:50:36 UTC] PHP Notice:  Undefined index: username in /home/strsim16/public_html/Prosjekt/saveLoggin.php on line 13
+[28-May-2017 14:50:36 UTC] PHP Notice:  Undefined index: password in /home/strsim16/public_html/Prosjekt/saveLoggin.php on line 14
+[28-May-2017 14:52:14 UTC] PHP Notice:  Undefined index: username in /home/strsim16/public_html/Prosjekt/saveLoggin.php on line 13
+[28-May-2017 14:52:14 UTC] PHP Notice:  Undefined index: password in /home/strsim16/public_html/Prosjekt/saveLoggin.php on line 14
+[28-May-2017 14:55:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'strsim16_yourvulkan.login' doesn't exist' in /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connection.php:445
+Stack trace:
+#0 /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connection.php(445): PDO->prepare('insert into `lo...')
+#1 /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connection.php(640): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `lo...', Array)
+#2 /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connection.php(607): Illuminate\Database\Connection->runQueryCallback('insert into `lo...', Array, Object(Closure))
+#3 /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connection.php(450): Illuminate\Database\Connection->run('insert into `lo...', Array, Object(Closure))
+#4 /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connection.php(404): Illuminate\Database\Connection->stateme in /home/strsim16/public_html/Prosjekt/vendor/illuminate/database/Connection.php on line 647
+[28-May-2017 15:05:48 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/strsim16/public_html/Prosjekt/saveLogin.php on line 17

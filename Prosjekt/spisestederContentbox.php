@@ -14,6 +14,9 @@ $spisesteder = Spisesteder::all();
 ?>
 
 <div id="contentBox">
+    <div id="head">
+        <h1>Spisesteder</h1>
+    </div>
     <div id="cWrap">
         <?php foreach ($spisesteder as $ok) { ?>
         <div id="CT">

@@ -14,6 +14,9 @@ $transport = Transport::all();
 ?>
 
 <div id="contentBox">
+    <div id="head">
+        <h1>Transport</h1>
+    </div>
     <div id="cWrap">
         <?php foreach ($transport as $ok) { ?>
         <div id="CT">

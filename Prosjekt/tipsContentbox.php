@@ -14,6 +14,9 @@ $tips = Tips::all();
 ?>
 
 <div id="contentBox">
+    <div id="head">
+        <h1>Tips</h1>
+    </div>
     <div id="cWrap">
         <?php foreach ($tips as $ok) { ?>
         <div id="CT">
