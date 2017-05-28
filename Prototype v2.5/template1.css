@@ -522,47 +522,50 @@
     color:white;
 }
 
-
-#cWrap{
-    position: relative;
-    margin: auto;
-    border: 2px;
-    padding: 15px;
-    display:table;
-    width: 95%;
+#logwrap{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    background-color:  #585858;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 90px;
 }
 
-#CT{
-    position: relative;
-    margin-top: 10px;
-    padding: 8px;
-    left: 35%;
-    display:block;
-    background-color:ghostwhite;
-    color: white;
-    width: 60%;
-    height: 180px;
-    display: inline-block;
-    border-radius: 1%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}   
+#logwrap img{
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
 
-#CB{
-    position: relative;
-    margin-top: 10px;
-    padding: 8px;
-    right: 55%;
-    bottom: 10%;
-    display:block;
-    background-color:ghostwhite;
-    color: white;
-    width: 20%;
-    height: 180px;
-    display: inline-block;
-    border-radius: 1%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}   
-    
+input[type="text"], input[type="password"]{
+    height: 45px;
+    width: 300px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+form-input:before{
+    content:"\f007";
+    position: absolute;
+    font-size: 30px;
+    color: #985986;
+    padding-top: 5px;
+    font-size: 35px;
+}
+
+#btn-login{
+    padding: 15px 25px;
+    color: #fff;
+    background-color: #2ECC71;
+    border: none;
+    border-radius: 4px;
+    border-bottom: 4px solid #27AE60;
+}
 
 
 #footer{
