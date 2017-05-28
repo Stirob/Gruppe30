@@ -18,19 +18,3 @@ $database->addConnection([
     'collation' => 'utf8_general_ci'
 ]);
 $database->bootEloquent();
-
-/*$host = "tek.westerdals.no";
-$db = "strsim16_yourvulkan";
-$port = "3306";
-$bruker = "strsim16_test";
-$pass = "123456789";
-
-try {
-    $database = new PDO("mysql:host=$host;dbname=$db;port=$port", "$bruker", "$pass");
-    $database -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "works";
-} catch (PDOException $e){
-    echo "not";
-    exit();
-}*/
-
